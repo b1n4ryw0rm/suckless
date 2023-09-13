@@ -72,6 +72,7 @@ static const char *flamcmd[]  = { "flameshot", "gui", NULL };
 
 static const Key keys[] = {
 	/* modifier                     key        function        argument */
+	{ MODKEY,			XK_n,	   spawn,	   SHCMD("st -e nmtui") },
 	{ MODKEY,			XK_s,	   spawn,	   {.v = flamcmd } },
 	{ MODKEY,                       XK_p,      spawn,          {.v = dmenucmd } },
 	{ MODKEY|ShiftMask,             XK_Return, spawn,          {.v = termcmd } },
