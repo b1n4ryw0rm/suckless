@@ -29,7 +29,6 @@
 #include <string.h>
 #include <unistd.h>
 #include <sys/types.h>
-#include <sys/stat.h>
 #include <sys/wait.h>
 #include <X11/cursorfont.h>
 #include <X11/keysym.h>
@@ -1591,7 +1590,7 @@ runautostart(void)
 			free(pathpfx);
 			return;
 		}
-		pathpfx = pathpfx_new;
+   pathpfx = pathpfx_new;
 
 		if (sprintf(pathpfx, "%s/.%s", home, dwmdir) <= 0) {
 			free(pathpfx);
@@ -1621,6 +1620,7 @@ runautostart(void)
 	free(pathpfx);
 	free(path);
 }
+
 
 void
 scan(void)
