@@ -17,7 +17,10 @@ static const struct arg args[] = {
 	{ uptime,          "^c#f8f8f2^ %s |",         NULL           }, 
 	
 	{ run_command,     "^c#ffb86c^ %2s ",        "cpuicon" },
-	{ cpu_perc,	       "^c#f8f8f2^ %s%% |",         NULL           },
+	{ cpu_perc,	   "^c#f8f8f2^ %s%% |",         NULL           },
+
+	{ run_command,     "^c#ff79c6^ %2s ",        "tempicon" },
+	{ run_command,     "^c#f8f8f2^ %2s |",     "sb-cpu" }, 
 	
 	{ run_command,     "^c#f1fa8c^ %2s ",        "ramicon" },
 	{ ram_perc,        "^c#f8f8f2^ %s%% |",        NULL           },
@@ -25,9 +28,6 @@ static const struct arg args[] = {
 	{ run_command,     "^c#ff5555^ %2s ",        "diskicon.sh" },
 	{ disk_perc,       "^c#f8f8f2^  %s%% |",         "/"            },
 	
-	{ run_command,     "^c#ff79c6^ %2s ",        "tempicon.sh" },
-	{ run_command,     "^c#f8f8f2^ %2s |",     "tail -1 ~/.config/.temp" }, 
-
 	{ run_command,     "^c#59fa7b^ %2s ",        "weathericon.sh" },
 	{ run_command,     "^c#f8f8f2^ %2s |",     "tail -1 ~/.config/weather" }, 
 	

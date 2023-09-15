@@ -18,15 +18,15 @@ static const struct arg args[] = {
 	
 	{ run_command,     "^c#03a598^ %2s ",        "cpuicon" },
 	{ cpu_perc,	       "^c#ebdbb2^ %s%% |",    NULL   },
+
+	{ run_command,     "^c#fb4934^ %2s ",        "tempicon" },
+	{ run_command,     "^c#ebdbb2^ %2s |",       "sb-cpu" }, 
 	
 	{ run_command,     "^c#689d6a^ %2s ",        "ramicon" },
 	{ ram_perc,        "^c#ebdbb2^ %s%% |",        NULL           },
 	/*
 	{ run_command,     "^c#458588^ %2s ",        "diskicon" },
 	{ disk_perc,       "^c#ebdbb2^  %s%% |",         "/"            },
-	
-	{ run_command,     "^c#fb4934^ %2s ",        "tempicon.sh" },
-	{ run_command,     "^c#ebdbb2^ %2s |",     "tail -1 ~/.config/.temp" }, 
 	
 	{ run_command,     "^c#8ec07c^ %2s ",        "weathericon.sh" },
 	{ run_command,     "^c#ebdbb2^ %2s |",     "tail -1 ~/.config/weather" }, 
