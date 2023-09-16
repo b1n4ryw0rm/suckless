@@ -28,8 +28,7 @@ static const char dmenufont[]       = "JetBrainsMono Nerd Font:size=11";
 #include "/home/b1n4ryw0rm/.cache/wal/colors-wal-dwm.h"
 
 /* tagging */
-// static const char *tags[] = { "󰣇", "", "", "" };
-static const char *tags[] = { "1", "2", "3", "4" };
+static const char *tags[] = { "󰣇", "", "", "" };
 
 static const Rule rules[] = {
 	/* xprop(1):
