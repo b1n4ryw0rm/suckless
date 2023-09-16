@@ -1,9 +1,10 @@
 static const struct arg args[] = {
 	/* function format          argument */
 
+	{ run_command,     "^c#458588^ %2s ",        "pacmanicon" },
+	{ run_command,       "^c#ebdbb2^ %s ",         "check-arch-updates.sh" },
 	{ run_command,     "^c#458588^ %2s ",        "pacicon" },
-	{ run_command,       "^c#ebdbb2^  %s ",         "check-arch-updates.sh" },
-	{ run_command,       "^c#ebdbb2^  %s |",         "check-aur-updates.sh" },
+	{ run_command,       "^c#ebdbb2^ %s |",         "check-aur-updates.sh" },
 
 	{ run_command,     "^c#fabd2f^ %2s |",        "internet.sh" },
 
