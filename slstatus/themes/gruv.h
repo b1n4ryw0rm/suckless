@@ -1,12 +1,9 @@
 static const struct arg args[] = {
 	/* function format          argument */
-	/*
-	{ run_command,     "^c#b8bb26^  %s ",        "mpdicon.sh" },
-	{ run_command,     "^c#ebdbb2^  %s |",        "mpd.sh" }, 
 
-	{ run_command,     "^c#fabd2f^ %s ",        "mailicon.sh" },
-	{ run_command,     "^c#ebdbb2^ %s |",        "newmail.sh" },
-	*/
+	{ run_command,     "^c#458588^ %2s ",        "pacicon" },
+	{ run_command,       "^c#ebdbb2^  %s ",         "check-arch-updates.sh" },
+	{ run_command,       "^c#ebdbb2^  %s |",         "check-aur-updates.sh" },
 
 	{ run_command,     "^c#fabd2f^ %2s |",        "internet.sh" },
 
@@ -24,13 +21,7 @@ static const struct arg args[] = {
 	
 	{ run_command,     "^c#689d6a^ %2s ",        "ramicon" },
 	{ ram_perc,        "^c#ebdbb2^ %s%% |",        NULL           },
-	/*
-	{ run_command,     "^c#458588^ %2s ",        "diskicon" },
-	{ disk_perc,       "^c#ebdbb2^  %s%% |",         "/"            },
-	
-	{ run_command,     "^c#8ec07c^ %2s ",        "weathericon.sh" },
-	{ run_command,     "^c#ebdbb2^ %2s |",     "tail -1 ~/.config/weather" }, 
-	*/
+
 	{ run_command,     "^c#d79921^ %s ",        "volumeicon" },
 	{ run_command,     "^c#ebdbb2^ %s |",     "volume.sh" },  
 	
