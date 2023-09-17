@@ -19,7 +19,7 @@ static const char dmenufont[]       = "JetBrainsMono Nerd Font:size=11";
 // static const char col_cyan[]        = "#005577";
 // static const char col_urgborder[]   = "#ff0000";
 // static const char *colors[][3]      = {
- 	/*               fg         bg         border   */
+//  	/*               fg         bg         border   */
 // 	[SchemeNorm] = { col_gray3, col_gray1, col_gray2 },
 // 	[SchemeSel]  = { col_gray4, col_cyan,  col_cyan  },
 // 	[SchemeUrg]  = { col_gray4, col_cyan,  col_urgborder  },
