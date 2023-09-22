@@ -19,10 +19,10 @@ static const char dmenufont[]       = "monospace:size=10";
 // static const char col_cyan[]        = "#005577";
 // static const char col_urgborder[]   = "#ff0000";
 // static const char *colors[][3]      = {
- 	/*               fg         bg         border   */
-// 	[SchemeNorm] = { col_gray3, col_gray1, col_gray2 },
+//  	/*               fg         bg         border   */
+//  	[SchemeNorm] = { col_gray3, col_gray1, col_gray2 },
 // 	[SchemeSel]  = { col_gray4, col_cyan,  col_cyan  },
-// 	[SchemeUrg]  = { col_gray4, col_cyan,  col_urgborder  },
+//  	[SchemeUrg]  = { col_gray4, col_cyan,  col_urgborder  },
 // };
 
 #include "/home/b1n4ryw0rm/.cache/wal/colors-wal-dwm.h"
@@ -94,6 +94,7 @@ static const Key keys[] = {
 	{ MODKEY,						XK_r,	   spawn,		   SHCMD("rofi -show run") },
 	{ MODKEY|ShiftMask,				XK_r,	   spawn,		   SHCMD("rofi -show drun") },
 	{ MODKEY,						XK_c,	   spawn,		   SHCMD("rofi -show calc") },
+	{ Mod4Mask,						XK_c,	   spawn,		   SHCMD("chromium") },
 	{ MODKEY,                       XK_p,      spawn,          {.v = dmenucmd } },
 	{ MODKEY|ShiftMask,             XK_Return, spawn,          {.v = termcmd } },
 	{ MODKEY,						XK_s,	   spawn,	   	   {.v = flamcmd } },
