@@ -95,6 +95,7 @@ static const Key keys[] = {
 	{ MODKEY|ShiftMask,				XK_r,	   spawn,		   SHCMD("rofi -show drun") },
 	{ MODKEY,						XK_c,	   spawn,		   SHCMD("rofi -show calc") },
 	{ Mod4Mask,						XK_c,	   spawn,		   SHCMD("chromium") },
+	{ MODKEY|ShiftMask,				XK_f,	   spawn,		   SHCMD("st -e ranger") },
 	{ MODKEY,                       XK_p,      spawn,          {.v = dmenucmd } },
 	{ MODKEY|ShiftMask,             XK_Return, spawn,          {.v = termcmd } },
 	{ MODKEY,						XK_s,	   spawn,	   	   {.v = flamcmd } },
