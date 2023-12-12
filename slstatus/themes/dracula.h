@@ -2,9 +2,7 @@ static const struct arg args[] = {
 	/* function format          argument */
 
 	{ run_command,     "^c#ff5555^ %2s ",        "pacmanicon" },
-	{ run_command,       "^c#f8f8f2^ %s ",         "check-arch-updates.sh" },
-	{ run_command,     "^c#ff5555^ %2s ",        "pacicon" },
-	{ run_command,       "^c#f8f8f2^ %s |",         "check-aur-updates.sh" },
+	{ run_command,       "^c#f8f8f2^ %s |",         "check-arch-updates.sh" },
 
 	{ run_command,     "^c#8be9fd^ %2s |",        "internet.sh" },
 
@@ -32,7 +30,7 @@ static const struct arg args[] = {
 	{ battery_state,   "^c#f8f8f2^ (%s) |",        "BAT1" },
         
 	{ run_command,     "^c#f1fa8c^ %2s ",        "timeicon" },
-	{ datetime,        "^c#f8f8f2^ %s",         "%a %b %d - %I:%M%p" },
+	{ datetime,        "^c#f8f8f2^ %s",         "%a %b %d - %I:%M%p " },
 
 	
 };
