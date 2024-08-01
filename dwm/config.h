@@ -71,12 +71,12 @@ static const char *flamcmd[]  = { "flameshot", "gui", NULL };
 #include "movestack.c"
 static const Key keys[] = {
 	/* modifier                     key        function        argument */
-	{ MODKEY,						XK_r,	   spawn,		   SHCMD("rofi -show run") },
-	{ MODKEY|ShiftMask,				XK_r,	   spawn,		   SHCMD("rofi -show drun") },
-	{ Mod4Mask,						XK_f,	   spawn,		   SHCMD("firefox") },
-	{ Mod4Mask,						XK_b,	   spawn,		   SHCMD("brave") },
-	{ Mod4Mask,						XK_q,	   spawn,		   SHCMD("qutebrowser") },
-	{ MODKEY|ShiftMask,				XK_f,	   spawn,		   SHCMD("st -e ranger") },
+	//{ MODKEY,						XK_r,	   spawn,		   SHCMD("rofi -show run") },
+	//{ MODKEY|ShiftMask,				XK_r,	   spawn,		   SHCMD("rofi -show drun") },
+	//{ Mod4Mask,						XK_f,	   spawn,		   SHCMD("firefox") },
+	//{ Mod4Mask,						XK_b,	   spawn,		   SHCMD("brave") },
+	//{ Mod4Mask,						XK_q,	   spawn,		   SHCMD("qutebrowser") },
+	//{ MODKEY|ShiftMask,				XK_f,	   spawn,		   SHCMD("st -e ranger") },
 	{ MODKEY,                       XK_p,      spawn,          {.v = dmenucmd } },
 	{ MODKEY|ShiftMask,             XK_Return, spawn,          {.v = termcmd } },
 	{ MODKEY,						XK_s,	   spawn,	   	   {.v = flamcmd } },
